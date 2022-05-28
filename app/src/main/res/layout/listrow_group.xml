@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <CheckedTextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:paddingTop="6dp"
+        android:textAllCaps="true"
+        android:paddingBottom="6dp"
+        android:text="Category"
+        android:textSize="14sp"
+        android:textAlignment="gravity"
+        android:textStyle="bold"
+        android:paddingStart="?android:attr/expandableListPreferredItemPaddingLeft"
+        tools:ignore="RtlSymmetry" />
+</LinearLayout>

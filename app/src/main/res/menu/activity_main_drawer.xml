@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/nav_drawer_home" />
+        <item
+            android:id="@+id/nav_inventory"
+            android:icon="@drawable/inventory"
+            android:title="@string/nav_drawer_items"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_transaction"
+            android:icon="@drawable/transaction"
+            android:title="@string/nav_drawer_trans" />
+        <item
+            android:id="@+id/nav_return"
+            android:icon="@drawable/returns"
+            android:title="@string/nav_drawer_returns" />
+        <item
+            android:id="@+id/nav_customers"
+            android:icon="@drawable/customers"
+            android:title="@string/nav_drawer_customers" />
+        <item
+            android:id="@+id/nav_reps"
+            android:icon="@drawable/sales_reps"
+            android:title="@string/nav_drawer_salesreps"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_summary"
+            android:icon="@drawable/summary"
+            android:title="@string/nav_drawer_summary"/>
+        <item
+            android:id="@+id/nav_expense"
+            android:icon="@drawable/inventory"
+            android:title="@string/nav_drawer_expense"/>
+
+    </group>
+
+    <item android:title="@string/nav_drawer_languages">
+        <menu>
+            <item
+                android:id="@+id/en"
+                android:title="@string/nav_drawer_en" />
+            <item
+                android:id="@+id/ta"
+                android:title="@string/nav_drawer_ta" />
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_drawer_more">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:title="@string/nav_drawer_tprint" />
+            <item
+                android:id="@+id/nav_dev"
+                android:title="@string/nav_drawer_about" />
+        </menu>
+    </item>
+
+</menu>

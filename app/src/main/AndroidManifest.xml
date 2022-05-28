@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jkdesigns.stsproject">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:name="com.jkdesigns.stsproject.PharmWare"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="true">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6557758298333106~2029628359"/>
+        <activity
+            android:name="com.jkdesigns.stsproject.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.jkdesigns.stsproject.Login"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.jkdesigns.stsproject.Register"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.Register" />
+        </activity>
+        <activity
+            android:name="com.jkdesigns.stsproject.UpdateInfo"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.UpdateInfo" />
+        </activity>
+        <activity
+            android:name="com.jkdesigns.stsproject.Developer"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.Developer" />
+        </activity>
+        <activity
+            android:name="com.jkdesigns.stsproject.About"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.About" />
+        </activity>
+        <activity
+            android:name="com.jkdesigns.stsproject.Newitem"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.Newitem" />
+        </activity>
+        <activity
+            android:name="com.jkdesigns.stsproject.UpdateItem"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.UpdateItem" />
+        </activity>
+        <activity
+            android:name="com.jkdesigns.stsproject.Newcustomer"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.Newcustomer" />
+        </activity>
+        <activity
+            android:name="com.jkdesigns.stsproject.Newexpense"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.Newexpense" />
+        </activity>
+        <activity
+            android:name="com.jkdesigns.stsproject.UpdateExpense"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.UpdateExpense" />
+        </activity>
+        <activity android:name="com.jkdesigns.stsproject.ExpenseLog"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.ExpenseLog" />
+        </activity>
+        <activity
+            android:name="com.jkdesigns.stsproject.NewSalesrep"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.NewSalesrep" />
+        </activity>
+        <activity
+            android:name="com.jkdesigns.stsproject.UpdateCustomer"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.UpdateCustomer" />
+        </activity>
+        <activity
+            android:name="com.jkdesigns.stsproject.UpdateSalesrep"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.UpdateSalesrep" />
+        </activity>
+        <activity
+            android:name="com.jkdesigns.stsproject.Trans"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.Trans" />
+        </activity>
+        <activity
+            android:name="com.jkdesigns.stsproject.Returns"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.Returns" />
+        </activity>
+        <activity
+            android:name="com.jkdesigns.stsproject.SampleBill"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.SampleBill" />
+        </activity>
+        <activity
+            android:name="com.jkdesigns.stsproject.Bill"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.Bill" />
+        </activity>
+        <activity
+            android:name="com.jkdesigns.stsproject.BillR"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.BillR" />
+        </activity>
+        <activity android:name="com.jkdesigns.stsproject.SettingsActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.SettingsActivity" />
+        </activity>
+        <activity android:name="com.jkdesigns.stsproject.CustomerLog"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.CustomerLog" />
+            </activity>
+        <activity android:name="com.jkdesigns.stsproject.SalesrepLog"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.SalesrepLog" />
+        </activity>
+        <activity android:name="com.jkdesigns.stsproject.Log"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jkdesigns.stsproject.Log" />
+        </activity>
+        <activity android:name="com.jkdesigns.stsproject.DeviceListActivity"
+            />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths"/>
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "866487146766",
+    "firebase_url": "https://sts-app-31b9c-default-rtdb.firebaseio.com",
+    "project_id": "sts-app-31b9c",
+    "storage_bucket": "sts-app-31b9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866487146766:android:23d45c64baac5f40cb9f5f",
+        "android_client_info": {
+          "package_name": "com.jkdesigns.stsproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866487146766-s2g68on1kremu6g2av6sta2hk3aa4bjv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnGTySJCm2nlkMD4sWG4arwDx4FJ0Pdog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866487146766-s2g68on1kremu6g2av6sta2hk3aa4bjv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

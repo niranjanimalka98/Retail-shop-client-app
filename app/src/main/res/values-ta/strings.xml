@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">டெமோ ஸ்டோர்</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open</string>
+    <string name="navigation_drawer_close" translatable="false">Close</string>
+    <string name="nav_drawer_home" translatable="false">முகப்பு</string>
+    <string name="nav_drawer_items" translatable="false">இருப்புக்கள்</string>
+    <string name="nav_drawer_trans" translatable="false">கொடுக்கல் வாங்கல்</string>
+    <string name="nav_drawer_returns" translatable="false">மீள் கொள்வனவு</string>
+    <string name="nav_drawer_expense" translatable="false">செலவு</string>
+    <string name="nav_drawer_customers" translatable="false">வாடிக்கையாளர்கள்</string>
+    <string name="nav_drawer_salesreps" translatable="false">விற்பனைப் பிரதிநிதிகள்</string>
+    <string name="nav_drawer_summary" translatable="false">சுருக்கம்</string>
+    <string name="nav_drawer_languages" translatable="false">மொழிகள்</string>
+    <string name="nav_drawer_en" translatable="false">English</string>
+    <string name="nav_drawer_ta" translatable="false">தமிழ்</string>
+    <string name="nav_drawer_more" translatable="false">மேலும்</string>
+    <string name="nav_drawer_tprint" translatable="false">பரிசோதனை</string>
+    <string name="nav_drawer_about" translatable="false">எம்மைப் பற்றி</string>
+    <string name="main_logout" translatable="false">வெளியேறு</string>
+
+    <!--home-->
+    <string name="home_billing" translatable="false">பற்றுச்சீட்டு</string>
+    <string name="home_returnbill" translatable="false">புதிய மீள் கொள்.</string>
+    <string name="home_transactions" translatable="false">கொடு/வாங்கல்</string>
+    <string name="home_returns" translatable="false">மீள் கொள்வனவு</string>
+    <string name="home_addcustomer" translatable="false">புதிய வாடிக்கை.</string>
+    <string name="home_customers" translatable="false">வாடிக்கையாளர்</string>
+    <string name="home_title" translatable="false">முகப்பு</string>
+
+    <!--login-->
+    <string name="login_login" translatable="false">உள்நுழை</string>
+
+    <!--transactions-->
+    <string name="trans_route" translatable="false">பாதை</string>
+    <string name="trans_date" translatable="false">திகதி</string>
+    <string name="trans_searchcust" translatable="false">வாடிக்கை. தேடல்..</string>
+    <string name="trans_repname" translatable="false">வி.பிரதிநிதியின் பெயர்</string>
+    <string name="trans_products" translatable="false">பொருட்கள்</string>
+    <string name="trans_rsunit" translatable="false">பொ/வி</string>
+    <string name="trans_qty" translatable="false">அளவு</string>
+    <string name="trans_amount" translatable="false">தொகை</string>
+    <string name="trans_totalamount" translatable="false">முழுத்தொகை : </string>
+    <string name="trans_paid" translatable="false">செலுத்தியது : </string>
+    <string name="trans_amountpaid" translatable="false">வாடிக்கையாளர் செலுத்திய தொகை</string>
+    <string name="trans_cash" translatable="false">காசு</string>
+    <string name="trans_cheque" translatable="false">காசோலை</string>
+    <string name="trans_credit" translatable="false">கடன்</string>
+    <string name="trans_searchitem" translatable="false">பொருளைத் தேடல்..</string>
+    <string name="trans_generatebill" translatable="false">பற்றுச்சீட்டை உருவாக்கல்</string>
+
+    <string name="trans_assignrep" translatable="false">வி.பிரதிநிதியை இணைக்கலாம்..!</string>
+    <string name="trans_confirm" translatable="false">உறுதி செய்யவும்</string>
+    <string name="trans_genbil" translatable="false">பற்றுச்சீட்டை உருவாக்க வேண்டுமா?</string>
+    <string name="trans_yes" translatable="false">ஆம்</string>
+    <string name="trans_no" translatable="false">இல்லை</string>
+    <string name="trans_nocusdetail" translatable="false">வழமையான வாடிக்கையாளரின் தகவல் உள்ளடக்கப்படவில்லை</string>
+    <string name="trans_filldetail" translatable="false">விபரங்களைப் பூரணமாக்கவும்</string>
+    <string name="trans_qtynotinstock" translatable="false">எண்ணிக்கை இருப்பில் இல்லை</string>
+    <string name="trans_validqty" translatable="false">சரியான எண்ணிக்கையை உள்ளிடுக</string>
+    <string name="trans_cancel" translatable="false">ரத்துசெய்</string>
+    <string name="trans_itemnotmatch" translatable="false">பொருள் இணங்கவில்லை</string>
+    <string name="trans_nofurtheritem" translatable="false">மேலும் பொருட்களைச் சேர்க்க இயலாது</string>
+    <string name="trans_set" translatable="false">சரி</string>
+    <string name="trans_alreadyin" translatable="false">பொருள் ஏற்கனவே சேர்க்கப்பட்டுள்ளது.</string>
+
+    <string name="trans_cantempty" translatable="false">தரவை உள்ளிடுக</string>
+    <string name="trans_rcantempty" translatable="false">பாதையை உள்ளிடுக</string>
+    <string name="trans_ccantempty" translatable="false">வாடிக்கையாளரை உள்ளிடுக</string>
+    <string name="trans_acantempty" translatable="false">தொகையை உள்ளிடுக</string>
+    <string name="trans_ccorc" translatable="false">காசு, காசோலை / கடன்</string>
+    <string name="trans_srcantempty" translatable="false">வி.பிரதிநிதியை உள்ளிடுக</string>
+
+    <string name="startday" translatable="false">நாளைத் தொடங்கவும்</string>
+    <string name="startdaymsg" translatable="false">நாளைத் தொடங்க ஆம் என்பதைச் சொடக்கவும்</string>
+
+    <!--input_dia-->
+    <string name="input_dia_enterqty" translatable="false">அளவை உள்ளிடவும்</string>
+
+    <!--invoive-->
+    <string name="invo_receiptid" translatable="false">ப.குறியீடு: </string>
+    <string name="invo_cusname" translatable="false">வாடிக்கை. பெயர்: </string>
+    <string name="invo_address" translatable="false">முகவரி: </string>
+    <string name="invo_rep" translatable="false">வி.பிரதிநிதி: </string>
+    <string name="invo_serial" translatable="false">இல.</string>
+    <string name="invo_description" translatable="false">விபரம்</string>
+    <string name="invo_unit" translatable="false">அலகு</string>
+    <string name="invo_qty" translatable="false">அளவு</string>
+    <string name="invo_rate" translatable="false">பொ/விலை</string>
+    <string name="invo_amount" translatable="false">தொகை</string>
+    <string name="invo_total" translatable="false">மொத்தம் </string>
+    <string name="invo_custpaid" translatable="false">வாடிக்கை. செலுத்தியது </string>
+    <string name="invo_balance" translatable="false">மிகுதி </string>
+    <string name="invo_slang" translatable="false">மொழியை மாற்றவும்</string>
+    <string name="invo_bottom" translatable="false">"எம்முடனான கொடுக்கல் வாங்கலுக்கு நன்றி. மீண்டும் வருக. \n POS அமைப்பு மற்றும் செயலி: Saegis developer team"</string>
+
+    <!--return-->
+    <string name="return_good" translatable="false">நல்லது</string>
+    <string name="return_ex_da" translatable="false">காலாவதி/சேதம்</string>
+    <string name="return_genreturn" translatable="false">மீள்கொள்வனவை உருவாக்க வேண்டுமா?</string>
+    <string name="return_gorex" translatable="false">நல்லது / காலாவதி / சேதம்</string>
+    <string name="return_generatereturn" translatable="false">மீள்கொள்வனவை உருவாக்கல்</string>
+    <string name="return_amountpaid" translatable="false">நிறுவனம் வாடிக்கையாளருக்கு செலுத்திய தொகை</string>
+
+    <!--printer-->
+    <string name="invo_printerstat" translatable="false">அச்சு.பொ. நிலை: </string>
+    <string name="invo_discon" translatable="false">துண்டிப்பு</string>
+    <string name="invo_share" translatable="false">பகிர்</string>
+    <string name="invo_connect" translatable="false">இணை</string>
+    <string name="invo_disconnect" translatable="false">துண்டி</string>
+    <string name="invo_print" translatable="false">அச்சிடு</string>
+    <string name="invo_pconnected" translatable="false">அ.பொறி இணைப்பில்</string>
+    <string name="invo_nobadapter" translatable="false">ஊடலைத் தகவி இல்லை</string>
+
+    <!--bill-->
+    <string name="bill_original" translatable="false">அசல்</string>
+    <string name="bill_copy" translatable="false">நகல்</string>
+    <string name="bill_bnotconnect" translatable="false">ஊடலை இணைக்கப்படவில்லை</string>
+    <string name="bill_shareinvo" translatable="false">பற்றுச்சீட்டை பகிர்கின்றது</string>
+    <string name="bill_sharevia" translatable="false">பற்றுச்சீட்டை பகிரும் ஊடகம்</string>
+    <string name="bill_connecting" translatable="false">இணைக்கின்றது...</string>
+    <string name="bill_btcanceled" translatable="false">ரத்து செய்யப்பட்டது</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="pref_header_about">About App</string>
+    <string name="summary_about">This is a custom made POS System for android mobiles. Supports bluetooth mobile thermal printer.</string>
+    <string name="summary_support">Got any queries? We are happy to help!</string>
+    <string name="title_send_feedback">Send Feedback</string>
+    <string name="title_faq">FAQ</string>
+    <string name="summary_faq">View frequently asked questions</string>
+    <string name="url_faq">http://www.pos.jkdesigns.app/faq/</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="url_privacy">http://www.pos.jkdesigns.app/privacy-policy/</string>
+    <string name="title_terms">Terms &amp; Conditions</string>
+    <string name="url_terms">http://www.pos.jkdesigns.app/terms-of-service/</string>
+    <string name="title_version">App Version</string>
+    <string name="choose_email_client">Choose email client</string>
+
+    <string name="pref_header_device">About Device</string>
+    <string name="title_SERIAL">DEVICE SERIAL</string>
+    <string name="title_MODEL">DEVICE MODEL</string>
+    <string name="title_ID">DEVICE ID</string>
+    <string name="title_MANUFACTURE">DEVICE MANUFACTURE</string>
+    <string name="title_TYPE">DEVICE TYPE</string>
+    <string name="title_USER">DEVICE USER</string>
+    <string name="title_INCREMENTAL">DEVICE INCREMENTAL</string>
+    <string name="title_BOARD">DEVICE BOARD</string>
+    <string name="title_BRAND">DEVICE BRAND</string>
+    <string name="title_HOST">DEVICE HOST</string>
+    <string name="title_VCODE">DEVICE VERSION CODE</string>
+    <string name="title_HARDWARE">DEVICE HARDWARE</string>
+    <string name="title_BLOADER">DEVICE BOOTLOADER</string>
+    <string name="title_SRESOLUTION">DEVICE SCREEN RESOLUTION</string>
+    <string name="title_SDENSITY">DEVICE SCREEN DENSITY</string>
+
+    <!--Admob-->
+    <string name="app_id" translatable="false">ca-app-pub-6557758298333106~2029628359</string><!--ca-app-pub-6557758298333106~2029628359-->
+    <string name="banner_1" translatable="false">ca-app-pub-6557758298333106/9469791218</string>
+    <string name="banner_2" translatable="false">ca-app-pub-6557758298333106/6265043379</string>
+    <string name="banner_3" translatable="false">ca-app-pub-6557758298333106/7386553351</string>
+    <string name="banner_4" translatable="false">ca-app-pub-6557758298333106/3447308349</string>
+    <string name="banner_5" translatable="false">ca-app-pub-6557758298333106/4568818327</string>
+    <string name="banner_6" translatable="false">ca-app-pub-6557758298333106/5777301676</string>
+    <string name="banner_7" translatable="false">ca-app-pub-6557758298333106/3064164966</string>
+    <string name="banner_8" translatable="false">ca-app-pub-6557758298333106/9438001623</string>
+    <string name="banner_9" translatable="false">ca-app-pub-6557758298333106/4185674944</string>
+    <string name="banner_10" translatable="false">ca-app-pub-6557758298333106/1559511600</string>
+
+    <string name="sma_banner_1" translatable="false">ca-app-pub-6557758298333106/5307184927</string>
+    <string name="sma_banner_2" translatable="false">ca-app-pub-6557758298333106/9054858244</string>
+    <string name="sma_banner_3" translatable="false">ca-app-pub-6557758298333106/7741776576</string>
+
+    <string name="interstitial_1" translatable="false">ca-app-pub-6557758298333106/6652056183</string>
+    <string name="in_video_1" translatable="false">ca-app-pub-3940256099942544/8691691433</string>
+    <string name="re_video_1" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
+</resources>

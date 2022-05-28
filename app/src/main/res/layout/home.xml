@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="10dp"
+    android:id="@+id/fraghome">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/texthome"
+                android:layout_weight="2"
+                android:padding="15dp"
+                tools:ignore="NestedWeights" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAllCaps="true"
+            android:textStyle="normal|bold|italic"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:id="@+id/hometext"
+            android:textColor="@color/colorPrimary" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="normal|bold|italic"
+            android:textSize="12sp"
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:id="@+id/address"
+            android:textColor="@color/colorPrimary" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#B7E5FF"
+                android:layout_weight="1"
+                android:weightSum="1"
+                tools:ignore="NestedWeights">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="@string/home_billing"
+                    android:maxLines="1"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/iconnewtrans"
+                    android:onClick="homebtn"
+                    android:layout_weight="1"
+                    android:id="@+id/btnnewt"
+                    tools:ignore="ContentDescription,NestedWeights,RtlSymmetry" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FDBDD5"
+                android:layout_weight="1"
+                android:weightSum="1"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="@string/home_returnbill"
+                    android:maxLines="1"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/iconreturn"
+                    android:onClick="homebtn"
+                    android:layout_weight="1"
+                    android:id="@+id/btnreturn"
+                    tools:ignore="ContentDescription,NestedWeights,RtlSymmetry" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#E7FDC9"
+                android:layout_weight="1"
+                android:weightSum="1"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="Inventry"
+                    android:textSize="25sp"
+                    android:textColor="#000000"/>
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/iconinventory"
+                    android:onClick="homebtn"
+                    android:layout_weight="1"
+                    android:id="@+id/btninventory"
+                    tools:ignore="ContentDescription,NestedWeights,RtlSymmetry" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFF7AC"
+                android:layout_weight="1"
+                android:weightSum="1"
+                tools:ignore="NestedWeights">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="@string/home_transactions"
+                    android:maxLines="1"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/icontrans"
+                    android:onClick="homebtn"
+                    android:layout_weight="1"
+                    android:id="@+id/btntrans"
+                    tools:ignore="ContentDescription,NestedWeights,RtlSymmetry" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#B3FFC8"
+                android:layout_weight="1"
+                android:weightSum="1"
+                tools:ignore="NestedWeights">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="@string/home_returns"
+                    android:maxLines="1"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/icontrans"
+                    android:onClick="homebtn"
+                    android:layout_weight="1"
+                    android:id="@+id/btnreturns"
+                    tools:ignore="ContentDescription,NestedWeights,RtlSymmetry" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#DBCAFC"
+                android:layout_weight="1"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="@string/home_addcustomer"
+                    android:maxLines="1"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/iconsalesrep"
+                    android:onClick="homebtn"
+                    android:layout_weight="1"
+                    android:id="@+id/btnreps"
+                    tools:ignore="NestedWeights,RtlSymmetry" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F8D29C"
+                android:layout_weight="1"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="@string/home_customers"
+                    android:maxLines="1"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/iconcustomer"
+                    android:onClick="homebtn"
+                    android:layout_weight="1"
+                    android:id="@+id/btncust"
+                    tools:ignore="ContentDescription,NestedWeights,RtlSymmetry" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register Device"
+            android:textSize="20sp"
+            android:id="@+id/regbtn"
+            android:textColor="@android:color/background_light"
+            android:layout_margin="5dp"
+            android:background="@android:color/holo_red_light"
+            android:typeface="sans"
+            android:textStyle="normal|italic"
+            android:visibility="gone"
+            android:onClick="regdevice"/>
+    </LinearLayout>
+
+</RelativeLayout>

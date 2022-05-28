@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DEMO STORE</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open</string>
+    <string name="navigation_drawer_close" translatable="false">Close</string>
+    <string name="nav_drawer_home" translatable="false">Home</string>
+    <string name="nav_drawer_items" translatable="false">Items</string>
+    <string name="nav_drawer_trans" translatable="false">View Bills</string>
+    <string name="nav_drawer_returns" translatable="false">View Returns</string>
+    <string name="nav_drawer_expense" translatable="false">Expenses</string>
+    <string name="nav_drawer_customers" translatable="false">Customers</string>
+    <string name="nav_drawer_salesreps" translatable="false">Sales Reps</string>
+    <string name="nav_drawer_summary" translatable="false">Summary</string>
+    <string name="nav_drawer_languages" translatable="false">Languages</string>
+    <string name="nav_drawer_en" translatable="false">English</string>
+    <string name="nav_drawer_ta" translatable="false">தமிழ்</string>
+    <string name="nav_drawer_more" translatable="false">More</string>
+    <string name="nav_drawer_tprint" translatable="false">Test Print</string>
+    <string name="nav_drawer_about" translatable="false">About</string>
+    <string name="main_logout" translatable="false">Log Out</string>
+
+    <!--home-->
+    <string name="home_billing" translatable="false">Add Bill</string>
+    <string name="home_returnbill" translatable="false">Add Return</string>
+    <string name="home_transactions" translatable="false">View Bills</string>
+    <string name="home_returns" translatable="false">View Returns</string>
+    <string name="home_addcustomer" translatable="false">Add Customer</string>
+    <string name="home_customers" translatable="false">View Customers</string>
+    <string name="home_title" translatable="false">Home</string>
+
+    <!--login-->
+    <string name="login_login" translatable="false">Login</string>
+
+    <!--transactions-->
+    <string name="trans_route" translatable="false">Route</string>
+    <string name="trans_date" translatable="false">Date</string>
+    <string name="trans_searchcust" translatable="false">Search Customer..</string>
+    <string name="trans_repname" translatable="false">Rep\'s Name</string>
+    <string name="trans_products" translatable="false">Products</string>
+    <string name="trans_rsunit" translatable="false">Rs/Unit</string>
+    <string name="trans_qty" translatable="false">Qty</string>
+    <string name="trans_amount" translatable="false">Amount</string>
+    <string name="trans_totalamount" translatable="false">Total Amount : </string>
+    <string name="trans_paid" translatable="false">Paid : </string>
+    <string name="trans_amountpaid" translatable="false">Customer Paid Amount</string>
+    <string name="trans_cash" translatable="false">Cash</string>
+    <string name="trans_cheque" translatable="false">Cheque</string>
+    <string name="trans_credit" translatable="false">Credit</string>
+    <string name="trans_searchitem" translatable="false">Search Items..</string>
+    <string name="trans_generatebill" translatable="false">GENERATE BILL</string>
+
+    <string name="trans_assignrep" translatable="false">Assign Sales Rep now..!</string>
+    <string name="trans_confirm" translatable="false">Confirm</string>
+    <string name="trans_genbil" translatable="false">Generate Bill?</string>
+    <string name="trans_yes" translatable="false">Yes</string>
+    <string name="trans_no" translatable="false">No</string>
+    <string name="trans_nocusdetail" translatable="false">Regular Customer Details not properly entered</string>
+    <string name="trans_filldetail" translatable="false">Fill Details Properly</string>
+    <string name="trans_qtynotinstock" translatable="false">Quantity is not in stock</string>
+    <string name="trans_validqty" translatable="false">Enter valid quantity</string>
+    <string name="trans_cancel" translatable="false">Cancel</string>
+    <string name="trans_itemnotmatch" translatable="false">Item does not match</string>
+    <string name="trans_nofurtheritem" translatable="false">No further items can be added</string>
+    <string name="trans_set" translatable="false">Set</string>
+    <string name="trans_alreadyin" translatable="false">Item added already.</string>
+    
+    <string name="trans_cantempty" translatable="false">Cannot be empty</string>
+    <string name="trans_rcantempty" translatable="false">Route Can\'t be empty</string>
+    <string name="trans_ccantempty" translatable="false">Customer Can\'t be empty</string>
+    <string name="trans_acantempty" translatable="false">Amount Can\'t be empty</string>
+    <string name="trans_ccorc" translatable="false">Cash, Cheque or Credit</string>
+    <string name="trans_srcantempty" translatable="false">Sales Rep can\'t be Empty</string>
+
+    <string name="startday" translatable="false">Starting Day</string>
+    <string name="startdaymsg" translatable="false">Click yes to start the day</string>
+
+    <!--input_dia-->
+    <string name="input_dia_enterqty" translatable="false">Enter Quantity</string>
+
+    <!--invoive-->
+    <string name="invo_receiptid" translatable="false">Receipt ID: </string>
+    <string name="invo_cusname" translatable="false">Cus. Name: </string>
+    <string name="invo_address" translatable="false">Address: </string>
+    <string name="invo_rep" translatable="false">Rep: </string>
+    <string name="invo_serial" translatable="false">S.</string>
+    <string name="invo_description" translatable="false">Description</string>
+    <string name="invo_unit" translatable="false">Unit</string>
+    <string name="invo_qty" translatable="false">Qty</string>
+    <string name="invo_rate" translatable="false">Rate</string>
+    <string name="invo_amount" translatable="false">Amount</string>
+    <string name="invo_total" translatable="false">Total</string>
+    <string name="invo_custpaid" translatable="false">Customer Paid</string>
+    <string name="invo_balance" translatable="false">Balance</string>
+    <string name="invo_slang" translatable="false">Switch Language</string>
+    <string name="invo_bottom" translatable="false">"THANK YOU FOR THE BUSINESS WITH US. CALL FOR THE NEXT ORDER. \n POS System &amp; App by: Saegis developer team"</string>
+
+    <!--return-->
+    <string name="return_good" translatable="false">Good</string>
+    <string name="return_ex_da" translatable="false">Expaired/Damaged</string>
+    <string name="return_genreturn" translatable="false">Generate Return?</string>
+    <string name="return_gorex" translatable="false">Good or Ex/Dam</string>
+    <string name="return_generatereturn" translatable="false">GENERATE RETURN</string>
+    <string name="return_amountpaid" translatable="false">Company Paid Amount</string>
+
+    <!--printer-->
+    <string name="invo_printerstat" translatable="false">Printer Status: </string>
+    <string name="invo_discon" translatable="false">Disconnected</string>
+    <string name="invo_share" translatable="false">Share</string>
+    <string name="invo_connect" translatable="false">Connect</string>
+    <string name="invo_disconnect" translatable="false">Disconnect</string>
+    <string name="invo_print" translatable="false">Print</string>
+    <string name="invo_pconnected" translatable="false">Printer Connected</string>
+    <string name="invo_nobadapter" translatable="false">No Bluetooth Adapter</string>
+
+    <!--bill-->
+    <string name="bill_original" translatable="false">Original</string>
+    <string name="bill_copy" translatable="false">Copy</string>
+    <string name="bill_bnotconnect" translatable="false">Bluetooth Not Connected</string>
+    <string name="bill_shareinvo" translatable="false">Sharing Invoice</string>
+    <string name="bill_sharevia" translatable="false">Share invoice via</string>
+    <string name="bill_connecting" translatable="false">Connecting...</string>
+    <string name="bill_btcanceled" translatable="false">Canceled</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="pref_header_about">About App</string>
+    <string name="summary_about">This is a custom made POS System for android mobiles. Supports bluetooth mobile thermal printer.</string>
+    <string name="summary_support">Got any queries? We are happy to help!</string>
+    <string name="title_send_feedback">Send Feedback</string>
+    <string name="title_faq">FAQ</string>
+    <string name="summary_faq">View frequently asked questions</string>
+    <string name="url_faq">http://www.pos.jkdesigns.app/faq/</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="url_privacy">http://www.pos.jkdesigns.app/privacy-policy/</string>
+    <string name="title_terms">Terms &amp; Conditions</string>
+    <string name="url_terms">http://www.pos.jkdesigns.app/terms-of-service/</string>
+    <string name="title_version">App Version</string>
+    <string name="choose_email_client">Choose email client</string>
+
+    <string name="pref_header_device">About Device</string>
+    <string name="title_SERIAL">DEVICE SERIAL</string>
+    <string name="title_MODEL">DEVICE MODEL</string>
+    <string name="title_ID">DEVICE ID</string>
+    <string name="title_MANUFACTURE">DEVICE MANUFACTURE</string>
+    <string name="title_TYPE">DEVICE TYPE</string>
+    <string name="title_USER">DEVICE USER</string>
+    <string name="title_INCREMENTAL">DEVICE INCREMENTAL</string>
+    <string name="title_BOARD">DEVICE BOARD</string>
+    <string name="title_BRAND">DEVICE BRAND</string>
+    <string name="title_HOST">DEVICE HOST</string>
+    <string name="title_VCODE">DEVICE VERSION CODE</string>
+    <string name="title_HARDWARE">DEVICE HARDWARE</string>
+    <string name="title_BLOADER">DEVICE BOOTLOADER</string>
+    <string name="title_SRESOLUTION">DEVICE SCREEN RESOLUTION</string>
+    <string name="title_SDENSITY">DEVICE SCREEN DENSITY</string>
+
+    <!--Admob-->
+    <string name="app_id" translatable="false">ca-app-pub-6557758298333106~2029628359</string><!--ca-app-pub-6557758298333106~2029628359-->
+    <string name="banner_1" translatable="false">ca-app-pub-6557758298333106/9469791218/</string>
+    <string name="banner_2" translatable="false">ca-app-pub-6557758298333106/6265043379/</string>
+    <string name="banner_3" translatable="false">ca-app-pub-6557758298333106/7386553351/</string>
+    <string name="banner_4" translatable="false">ca-app-pub-6557758298333106/3447308349/</string>
+    <string name="banner_5" translatable="false">ca-app-pub-6557758298333106/4568818327/</string>
+    <string name="banner_6" translatable="false">ca-app-pub-6557758298333106/5777301676/</string>
+    <string name="banner_7" translatable="false">ca-app-pub-6557758298333106/3064164966/</string>
+    <string name="banner_8" translatable="false">ca-app-pub-6557758298333106/9438001623/</string>
+    <string name="banner_9" translatable="false">ca-app-pub-6557758298333106/4185674944/</string>
+    <string name="banner_10" translatable="false">ca-app-pub-6557758298333106/1559511600/</string>
+
+    <string name="sma_banner_1" translatable="false">ca-app-pub-6557758298333106/5307184927/</string>
+    <string name="sma_banner_2" translatable="false">ca-app-pub-6557758298333106/9054858244/</string>
+    <string name="sma_banner_3" translatable="false">ca-app-pub-6557758298333106/7741776576/</string>
+
+    <string name="interstitial_1" translatable="false">ca-app-pub-6557758298333106/6652056183/</string>
+    <string name="in_video_1" translatable="false">ca-app-pub-3940256099942544/8691691433/</string>
+    <string name="re_video_1" translatable="false">ca-app-pub-3940256099942544/5224354917/</string>
+</resources>
